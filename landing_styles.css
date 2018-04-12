@@ -1,0 +1,202 @@
+html,
+body {
+	height: 100%;
+	font-size: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+div.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+section.main	{
+	width: 100%;
+	background: rgba(239, 240, 242, 0.99);
+	padding-top: 64px;
+	padding-bottom: 196px;
+}
+
+.logo {
+	width: 113px;
+	height: 46px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.menu {
+	height: 21px;
+	width: 30px;
+	display: inline-block;
+	padding-left: calc(100% - 113px - 30px);
+}
+
+.menu_icon{
+	width: 30px;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+	border-radius: 2px;
+	margin-bottom: 4px;
+}
+
+h1 {
+	font-size: 45px;
+	color: rgba(80, 80, 80, 1);
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	letter-spacing: 2.7px;
+	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+	padding-top: 206px;
+	margin: 0px;
+	padding-bottom: 150px;
+}
+
+h1 > span.blue {
+	background: rgba(118, 244, 234, 0.5);
+}
+
+span.juice {
+	position: relative;
+}
+
+span.juice::after {
+	content: url(./images/juice.png);
+	max-width: 93px;
+	max-height: 94px;
+	position: absolute;
+	bottom: -265px;
+	right: 0px;
+}
+
+span.button {
+	font-size: 18px;
+	font-family: Monserrat;
+	font-weight: 400;
+	letter-spacing: 2.16px;
+	color: rgba(0, 0, 0, 0.75);
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	border:  2px solid rgba(0, 0, 0, 0.75);
+	border-radius: 2px;
+	padding: 20px 48px;
+	display: inline-block;
+	width: 20.5%;
+	margin-left: calc(50% - (20.5% / 2));
+}	
+	
+span.button:hover {
+	background-color: rgba(118, 244, 234, 0.5);
+	border-color: rgba(255, 255, 255, 0.90); 
+}
+
+section.about {
+	padding-top: 129px;
+	padding-bottom: 113px;
+	background: rgba(248, 250, 250, 1);
+}
+
+h2 {
+	font-size: 38px;
+	font-weight: 700;
+	font-family: Montserrat;
+	font-style: bold;
+	line-height: 28px;
+	letter-spacing: 2.28px;
+	color: rgba(0, 0, 0, 0.9);
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+}
+
+h2 + p {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: Merriweather;
+	line-height: 28px;
+	letter-spacing: 1.08px;
+	color: rgba(0, 0, 0, 0.62);
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+div.about.content {
+	padding-top: 147px;
+}
+
+.left.slider {
+	width: 479px;
+	margin-right: 113px;
+	text-align: center;
+	display: inline-block;
+}
+
+.slider.images {
+	background-image: url(./images/image_3.png);
+	background-repeat: no-repeat; 
+	background-position: center center;
+}
+
+img.images {
+	box-shadow: 0px 0px 30px rgba(20, 20, 21, 0.13);
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+label {
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+	background: rgba(208, 208, 208, 1);
+	display: inline-block;
+	margin-right: 3px;
+	margin-top: 43px;
+}
+
+label:hover {
+	cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+	background: rgba(113, 246, 235, 1);
+}
+
+.right {
+	display: inline-block;
+	width: calc(100% - 479px - 113px);
+	vertical-align: top;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	font-family: Merriweather;
+	line-height: 28px;
+	letter-spacing: 1.2px;
+	color: rgba(0, 0, 0, 0.75);
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+h3 ~ p {
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.8px;
+	color: rgba(0, 0, 0, 0.75);
+	text-align: justify;
+}
+
