@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Landing_Lesson 4</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="landing_styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
-	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
 <body>
 	<section class="main">
@@ -14,12 +16,25 @@
 			<header>
 				<img class="logo" src="./images/logo.png" alt="shopno logo"
 				>
-
-				<div class="menu">
-					<div class="menu_icon"></div>
-					<div class="menu_icon"></div>
-					<div class="menu_icon"></div>
-				</div>
+				<nav>
+					<div class="burger">
+						<div class="burger_icon"></div>
+						<div class="burger_icon"></div>
+						<div class="burger_icon"></div>
+					</div>
+					<div class="drop-down_menu">
+						<ul>
+							<li><a href="#about"> About us</a></li>
+							<li><a href="#works">Featured works</a></li>
+							<li><a href="#services">Our services</a></li>
+							<li><a href="#team">Small team</a></li>
+							<li><a href="#what">What they says</a></li>
+							<li><a href="#partners">Parnters</a></li>
+							<li><a href="#contact_us">Contact us</a></li>
+							<li><a href="#networks">We in social networks</a></li>
+						</ul>
+					</div>
+				</nav>
 			</header>
 
 			<h1>
@@ -27,13 +42,11 @@
 				<br> Agency</span> corporate shopno them<span class="juice">e</span>
 			</h1>
 
-			<a href="">
-				<span class="button">Contact us</span>
-			</a>
+			<a href="" class="button main">Contact us</a>
 		</div>
 	</section>
 
-	<section class="about">
+	<section class="about" id="about">
 		<div class="container">
 			<h2>About us</h2>
 			<p>
@@ -41,41 +54,35 @@
 			</p>
 
 			<div class="about content">
-				<div class="left slider">
-					<div class="slider images">	
-						<div><img class="images slide1" src=""></div>
-						<div><img class="images slide2" src="./images/image_2.png"></div>
-						<div><img class="images slide3" src=""></div>
-						<div><img class="images slide4" src=""></div>
+				<div class="about left_slider">
+					<div class="about slider_images">	
+						<div><img class="about images slide1" src=""></div>
+						<div><img class="about images slide2" src="./images/image_2.png"></div>
+						<div><img class="about images slide3" src=""></div>
+						<div><img class="about mages slide4" src=""></div>
 					</div>
 					<div class="radiobutton">
-						<input type="radio" name="radiogroup" id="slide1">
-						<label for="slide1"></label>
-						
-						<input type="radio" name="radiogroup" id="slide2" checked>
-						<label for="slide2"></label>
-					
-						<input type="radio" name="radiogroup" id="slide3">		
-						<label for="slide3"></label>
-						
-						<input type="radio" name="radiogroup" id="slide4">
-						<label for="slide4"></label>
+						<input type="radio" name="radiogroup1" id="about_slide1">
+							<label for="about_slide1" class="slider"></label>
+						<input type="radio" name="radiogroup1" id="about_slide2" checked>
+							<label for="about_slide2" class="slider"></label>
+						<input type="radio" name="radiogroup1" id="about_slide3">	
+							<label for="about_slide3" class="slider"></label>
+						<input type="radio" name="radiogroup1" id="about_slide4">
+							<label for="about_slide4" class="slider"></label>
 					</div>
 				</div>
 
-				<div class="right description">
+				<div class="about right_description">
 					<h3>We actually do amazing works</h3>
-
 					<p>
 						A visula is an approach to a runaway at an airport conducted under insrument flight rules. The pilot must  zt all times have either the airport or the preceding aircraft in approach correct sight conducted under instrument flight rules. The pilot must at all times.
 					</p>
-
 					<p>
 						Preceding aircraft in approach correct sight conducted under instrument flight rules.
 					</p>
 
 					<h3>Why we are the great?</h3>
-
 					<p>
 						A visual approach is an approach to a runawway at an airport conducted under instrument flight rules. The preceding aircraft in approach correct sight.
 					</p>
@@ -84,23 +91,505 @@
 		</div>
 	</section>
 
-	<section class="works">
+	<section class="works" id="works">
 		<div class="container">
 			<h2>Featured works</h2>
 			<p>
 				Lorem ipsum dolor sit amet event landing template
 			</p>
-
 			<div class="works content">
 				<img class="works" name="image1" src="./images/work1.png">
 				<img class="works" name="image2" src="./images/work2.png">
 				<img class="works" name="image3" src="./images/work3.png">
 				<img class="works" name="image4" src="./images/work4.png">
 				<img class="works" name="image5" src="./images/work5.png">
-				<img class="works" name="image6" src="./images/work6.png">				
+				<img class="works" name="image6" src="./images/work6.png">			
 			</div>
 		</div>
 	</section>
 
+	<section class="services" id="services">
+		<div class="container">
+			<h2>Our services</h2>
+			<p>
+				Lorem ipsum dolor sit amet event landing template
+			</p>
+			<div class="services content">
+				<div class="services block" name="block1">
+					<img name="block1" src="./images/services1.png"
+					>
+					<div class="top" name="block1">
+						<h3>Designing is the cool</h3>
+						<p>
+							Our most popular service is our Virtual Receptionist. We know that ...
+						</p>
+
+						<input type="radio" name="block1" id="block1_top" class="services_top">	
+							<label for="block1_top" class="services_top">Know more&nbsp;&#8594;</label>
+					
+						<div class="bottom">
+							<h3>Designing is the cooL love for.</h3>
+							<p>
+								Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+							</p>
+							
+							<input type="radio" name="block1" id="block1_bottom" class="services_bottom">
+								<label for="block1_bottom" class="services_bottom">
+									<i class="fas fa-times"></i>
+								</label>
+						</div>
+					</div>
+				</div>	
+				<div class="services block" name="block2">
+					<img name="block2" src="./images/services2.png"
+					>
+					<div class="top" name="block2">
+						<h3>Cool psd design</h3>
+						<p>
+							Our most popular service is our we know that sometimes it’s something and you’ll middle most..
+						</p>
+
+						<input type="radio" name="block2" id="block2_top" class="services_top">	
+							<label for="block2_top" class="services_top">Know more&nbsp;&#8594;</label>
+					
+						<div class="bottom">
+							<h3>Designing is the cooL love for.</h3>
+							<p>
+								Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+							</p>
+							
+							<input type="radio" name="block2" id="block2_bottom" class="services_bottom">
+								<label for="block2_bottom" class="services_bottom">
+									<i class="fas fa-times"></i>
+								</label>
+						</div>
+					</div>
+				</div>
+				<div class="services block" name="block3">
+					<img name="block3" src="./images/services3.png"
+					>
+					<div class="top" name="block3">
+						<h3>Designing is the cool</h3>
+						<p>
+							Our most popular service is our Virtual Receptionist. We know that ...
+						</p>
+
+						<input type="radio" name="block3" id="block3_top" class="services_top">	
+							<label for="block3_top" class="services_top">Know more&nbsp;&#8594;</label>
+					
+						<div class="bottom">
+							<h3>Designing is the cooL love for.</h3>
+							<p>
+								Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+							</p>
+							
+							<input type="radio" name="block3" id="block3_bottom" class="services_bottom">
+								<label for="block3_bottom" class="services_bottom">
+									<i class="fas fa-times"></i>
+								</label>
+						</div>
+					</div>
+				</div>
+				<div class="services block" name="block4">
+					<img name="block4" src="./images/services4.png"
+					>
+					<div class="top" name="block4">
+						<h3>PSD TO HTML KORI</h3>
+						<p>
+							We know that sometimes it’s something and you middle most..
+						</p>
+
+						<input type="radio" name="block4" id="block4_top" class="services_top">	
+							<label for="block4_top" class="services_top">Know more&nbsp;&#8594;</label>
+					
+						<div class="bottom">
+							<h3>Designing is the cooL love for.</h3>
+							<p>
+								Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+							</p>
+							
+							<input type="radio" name="block4" id="block4_bottom" class="services_bottom">
+								<label for="block4_bottom" class="services_bottom">
+									<i class="fas fa-times"></i>
+								</label>
+						</div>
+					</div>
+				</div>
+				<div class="services block" name="block5">
+					<img name="block5" src="./images/services5.png"
+					>
+					<div class="top" name="block5">
+						<h3>Cool psd design</h3>
+						<p>
+							Our most popular service is our new virtual Receptionist you middle most..
+						</p>
+
+						<input type="radio" name="block5" id="block5_top" class="services_top">	
+							<label for="block5_top" class="services_top">Know more&nbsp;&#8594;</label>
+					
+						<div class="bottom">
+							<h3>Designing is the cooL love for.</h3>
+							<p>
+								Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+							</p>
+							
+							<input type="radio" name="block5" id="block5_bottom" class="services_bottom">
+								<label for="block5_bottom" class="services_bottom">
+									<i class="fas fa-times"></i>
+								</label>
+						</div>
+					</div>
+				</div>
+				<div class="services block" name="block6">
+					<img name="block6" src="./images/services6.png"
+					>
+					<div class="top" name="block6">
+						<h3>Designing is the cool for</h3>
+						<p>
+							Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most..
+						</p>
+
+						<input type="radio" name="block6" id="block6_top" class="services_top">	
+							<label for="block6_top" class="services_top">Know more&nbsp;&#8594;</label>
+					
+						<div class="bottom">
+							<h3>Designing is the cooL love for.</h3>
+							<p>
+								Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+							</p>
+							
+							<input type="radio" name="block6" id="block6_bottom" class="services_bottom">
+								<label for="block6_bottom" class="services_bottom">
+									<i class="fas fa-times"></i>
+								</label>
+						</div>
+					</div>
+				</div>
+			</div>								
+		</div>
+	</section>
+	
+	<section class="team" id="team">
+		<div class="container">
+			<h2>Small team</h2>
+			<p>
+				Lorem ipsum dolor sit amet event landing template
+			</p>
+			<div class="team content">
+				
+				<div class="team photo" name="photo1">
+					<img class="team" name="photo1" src="./images/team1.png"
+					>
+					<div class="team text">
+						<h3> 
+							AL RAYHAN <span>/ UI Designer</span>
+						</h3>
+						<p>
+							Lorem Ipsum is not simply is  an action designer random text It has roots in a piece.
+						</p>
+
+						<div class="team contacts social">
+							<a class="team social" name="facebook_AL RAYHAN" href="https://www.facebook.com"">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							
+							<a class="team social" name="twitter_AL RAYHAN" href="https://www.twitter.com"">
+								<i class="fab fa-twitter"></i>
+							</a>
+
+							<a class="team social" name="dribble_AL RAYHAN" href="https://www.dribbble.com"">
+								<i class="fab fa-dribbble"></i>
+							</a>
+
+							<a class="team social" name="email_AL RAYHAN" href="mail to:">
+								<i class="far fa-envelope"></i>
+							</a>		
+						</div>
+					</div>
+				</div>
+
+				<div class="team photo" name="photo2">
+					<img class="team" name="photo2" src="./images/team2.png"
+					>
+					<div class="team text">
+						<h3> 
+							AL RAYHAN <span>/ UI Designer</span>
+						</h3>
+						<p>
+							Lorem Ipsum is not simply is  an action designer random text It has roots in a piece.
+						</p>
+
+						<div class="team contacts social">
+							<a class="team social" name="facebook_AL RAYHAN" href="https://www.facebook.com"">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							
+							<a class="team social" name="twitter_AL RAYHAN" href="https://www.twitter.com"">
+								<i class="fab fa-twitter"></i>
+							</a>
+
+							<a class="team social" name="dribble_AL RAYHAN" href="https://www.dribbble.com"">
+								<i class="fab fa-dribbble"></i>
+							</a>
+
+							<a class="team social" name="email_AL RAYHAN" href="mail to:">
+								<i class="far fa-envelope"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="team photo" name="photo3">
+					<img class="team" name="photo3" src="./images/team3.png"
+					>
+					<div class="team text">
+						<h3> 
+							AL RAYHAN <span>/ UI Designer</span>
+						</h3>
+						<p>
+							Lorem Ipsum is not simply is  an action designer random text It has roots in a piece.
+						</p>
+
+						<div class="team contacts social">
+							<a class="team social" name="facebook_AL RAYHAN" href="https://www.facebook.com"">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							
+							<a class="team social" name="twitter_AL RAYHAN" href="https://www.twitter.com"">
+								<i class="fab fa-twitter"></i>
+							</a>
+
+							<a class="team social" name="dribble_AL RAYHAN" href="https://www.dribbble.com"">
+								<i class="fab fa-dribbble"></i>
+							</a>
+
+							<a class="team social" name="email_AL RAYHAN" href="mail to:">
+								<i class="far fa-envelope"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="team photo" name="photo4">
+					<img class="team" name="photo4" src="./images/team4.png"
+					>
+					<div class="team text">
+						<h3> 
+							AL RAYHAN <span>/ UI Designer</span>
+						</h3>
+						<p>
+							Lorem Ipsum is not simply is  an action designer random text It has roots in a piece.
+						</p>
+
+						<div class="team contacts social">
+							<a class="team social" name="facebook_AL RAYHAN" href="https://www.facebook.com"">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							
+							<a class="team social" name="twitter_AL RAYHAN" href="https://www.twitter.com"">
+								<i class="fab fa-twitter"></i>
+							</a>
+
+							<a class="team social" name="dribble_AL RAYHAN" href="https://www.dribbble.com"">
+								<i class="fab fa-dribbble"></i>
+							</a>
+
+							<a class="team social" name="email_AL RAYHAN" href="mail to:">
+								<i class="far fa-envelope"></i>
+							</a>
+						</div>						
+					</div>
+				</div>
+
+				<div class="team photo" name="photo5">
+					<img class="team" name="photo5" src="./images/team5.png"
+					>
+					<div class="team text">
+						<h3> 
+							AL RAYHAN <span>/ UI Designer</span>
+						</h3>
+						<p>
+							Lorem Ipsum is not simply is  an action designer random text It has roots in a piece.
+						</p>
+					
+						<div class="team contacts social">
+							<a class="team social" name="facebook_AL RAYHAN" href="https://www.facebook.com"">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							
+							<a class="team social" name="twitter_AL RAYHAN" href="https://www.twitter.com"">
+								<i class="fab fa-twitter"></i>
+							</a>
+
+							<a class="team social" name="dribble_AL RAYHAN" href="https://www.dribbble.com"">
+								<i class="fab fa-dribbble"></i>
+							</a>
+
+							<a class="team social" name="email_AL RAYHAN" href="mail to:">
+								<i class="far fa-envelope"></i>
+							</a>		
+						</div>
+					</div>
+				</div>
+
+				<div class="team photo" name="photo6">
+					<img class="team" name="photo6" src="./images/team6.png"
+					>
+					<div class="team text">
+						<h3> 
+							AL RAYHAN <span>/ UI Designer</span>
+						</h3>
+						<p>
+							Lorem Ipsum is not simply is  an action designer random text It has roots in a piece.
+						</p>
+
+						<div class="team contacts social">
+							<a class="team social" name="facebook_AL RAYHAN" href="https://www.facebook.com"">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+
+							<a class="team social" name="twitter_AL RAYHAN" href="https://www.twitter.com"">
+								<i class="fab fa-twitter"></i>
+							</a>
+							
+							<a class="team social" name="dribble_AL RAYHAN" href="https://www.dribbble.com"">
+								<i class="fab fa-dribbble"></i>
+							</a>
+							
+							<a class="team social" name="email_AL RAYHAN" href="mail to:">
+								<i class="far fa-envelope"></i>
+							</a>		
+						</div>				
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="what" id="what">
+		<div class="container">
+			<h2>what they says</h2>
+			<p>
+				Lorem ipsum dolor sit amet event landing template
+			</p>
+			<div class="what content">
+				<div class="what left_slider">
+					<div class="what slider_images">	
+						<div><img class="what images slide1" src=""></div>
+						<div><img class="what images slide2" src="./images/what2.png"></div>
+						<div><img class="what images slide3" src=""></div>
+						<div><img class="what images slide4" src=""></div>
+					</div>
+					<div class="radiobutton">
+						<input type="radio" name="radiogroup3" id="what_slide1">
+							<label for="what_slide1" class="slider"></label>
+						
+						<input type="radio" name="radiogroup3" id="what_slide2" checked>
+							<label for="what_slide2" class="slider"></label>
+					
+						<input type="radio" name="radiogroup3" id="what_slide3">	
+							<label for="what_slide3" class="slider"></label>
+						
+						<input type="radio" name="radiogroup3" id="what_slide4">
+							<label for="what_slide4" class="slider"></label>
+					</div>
+				</div>
+				<div class="what right_slider">
+					<div class="what right_slider text" >
+						<h3>
+							Al Rayahan <span>/ UI/UX Designer</span>
+						</h3>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+						<span class="star"><i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>	
+					</div>
+					<div class="what right_slider_nav">
+						<div class="arrow left"></div>
+						<div class="arrow right"></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="partners" id="partners">
+		<div class="container">
+			<img class="partners" 
+			src="./images/partner_logos.png" alt="partner logos">	
+		</div>
+	</section>
+
+	<section class="contact_us" id="contact_us">
+		<div class="container">
+			<form action="">
+				<label for="username" class="contact_form">Name*</label>
+					<input type="text" name="username" id="username" required="" placeholder="Type here your name">
+						<hr>
+
+				<label for="subject" class="contact_form">Subject*</label>
+					<input type="text" name="username" id="subject" required="" placeholder="Type here your text">
+						<hr>
+
+				<label for="email" class="contact_form">Email*</label>
+					<input type="email" name="username" id="email" required="" placeholder="Type here your email">
+			
+				<label for="message" class="contact_form">Message*</label>
+					<textarea id="message" required="" rows="2" placeholder="Type here your text"></textarea>
+						<hr>
+				<label for="submit_button" class="sebmit button">Send message</label>
+					<input type="submit" name="form" id="submit_button">
+			</form>
+			<div class="contact_details">
+				<div class="adress">
+					<address>Adress line 1 </address>
+					<address>Adress line 2 </address>
+					<a href="tel:+548 945645"> Phone: +548 945645</a>
+					<a href="tel:+456456 54546"> Fax: +456456 54546</a>
+					<a href="">&nbsp;</a>
+					<a href="https://www.designagency.net"> Web: www.designagency.net</a>
+					<a href="mailto:info@designagency.net">E-mail: info@designagency.net</a>
+				</div>
+				<img src="./images/contact_us_map.png" alt="location map">
+			</div>
+		</div>
+	</section>
+
+	<footer id="networks">
+		<div class="container">
+			<h4>FOLLOW US</h4>
+
+			<div class="footer social">
+				<a class="footer social" name="pinterest" 
+				href="https://www.pinterest.com">
+					<i class="fab fa-pinterest-p"></i>
+				</a>
+
+				<a class="footer social" name="twitter" 
+				href="https://www.twitter.com">
+					<i class="fab fa-twitter"></i>
+				</a>
+
+				<a class="footer social" name="facebook" 
+				href="https://www.facebook.com">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+
+				<a class="footer social" name="dribbble" 
+				href="https://www.dribbble.com">
+					<i class="fab fa-dribbble"></i>
+				</a>
+			</div>
+			<p>
+				Copyright Masum Parvej, All Rights Reserved
+			</p>
+		</div>
+	</footer>
 </body>
 </html>
